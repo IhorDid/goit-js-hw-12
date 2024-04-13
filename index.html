@@ -7,7 +7,9 @@
     <title>goit-js-hw-12</title>
     
     <script type="module" crossorigin src="/goit-js-hw-12/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/goit-js-hw-12/assets/index-fa61914a.css">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-632f698a.js">
+    <link rel="stylesheet" href="/goit-js-hw-12/assets/vendor-1cd1f9d9.css">
+    <link rel="stylesheet" href="/goit-js-hw-12/assets/index-45f57312.css">
   </head>
   <body>
     <section id="present">
@@ -29,9 +31,11 @@
           </div>
           <button class="present_btn" type="submit">Search</button>
         </form>
-
-        <ul class="gallery"></ul>
         <span class="loader"></span>
+        <ul class="gallery"></ul>
+        <div class="btn-container">
+          <button class="js-load-more load-more-hidden">Load more</button>
+        </div>
       </div>
     </section>
     
