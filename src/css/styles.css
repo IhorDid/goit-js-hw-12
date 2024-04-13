@@ -110,6 +110,7 @@
   width: 100%;
   height: 370px;
   border-radius: 8px 8px 0 0;
+  object-fit: cover;
 }
 
 .gallery_item_params {
@@ -138,6 +139,10 @@
 }
 .gallery_item_params_link:hover:nth-child(2) > .gallery_svg {
   fill: rgba(240, 13, 13, 0.897);
+  scale: 1.2;
+}
+.gallery_item_params_link:hover:nth-child(3) > .gallery_svg {
+  fill: rgba(0, 252, 25, 0.897);
   scale: 1.2;
 }
 .gallery_item_params_link:hover:last-child > .gallery_svg {
