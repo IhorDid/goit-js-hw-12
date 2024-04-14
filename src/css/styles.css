@@ -200,3 +200,30 @@
     transform: rotate(360deg);
   }
 }
+.btn-container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.load-more-hidden {
+  display: none;
+}
+
+.load-more {
+  display: inline-block;
+  margin-left: 20px;
+  width: 170px;
+  height: 40px;
+  color: #fcf9f9;
+  letter-spacing: -0.02em;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  transition: border 300ms ease;
+}
+
+.load-more:hover,
+.load-more:focus {
+  border: 1px solid rgba(236, 217, 121, 1);
+}
